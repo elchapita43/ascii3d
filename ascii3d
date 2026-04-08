@@ -1,0 +1,6 @@
+#!/bin/bash
+# ascii3d - Renderiza modelos 3D como ASCII art
+# Uso: ascii3d archivo.obj | ascii3d --shape cube
+
+SCRIPT_DIR="$HOME/proyectos/ascii3d"
+exec python3 "$SCRIPT_DIR/ascii3d.py" "$@"
